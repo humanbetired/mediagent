@@ -12,9 +12,7 @@ Modern ICU monitoring systems generate continuous streams of vital sign data, bu
 
 The entire system runs locally, no external API calls, no cloud dependency, full data privacy by design.
 
----
-
-A full diagram with the Docker Compose deployment topology is available in [`mediagent\archi\Archi_MediAgent.png`](mediagent\archi\Archi_MediAgent.png).
+A full diagram with the Docker Compose deployment topology is available in [`archi\Archi_MediAgent.png`](archi\Archi_MediAgent.png).
 
 ---
 

@@ -1,0 +1,54 @@
+CLINICAL RISK STRATIFICATION GUIDE
+
+HIGH-RISK PATIENT PROFILES
+
+Profile 1: Elderly Patients (Age > 65)
+- Atypical presentations common (no fever with infection)
+- Lower baseline BP and HR normal variants
+- Polypharmacy increases adverse event risk
+- Cognitive changes may mask symptom reporting
+- Fall risk elevated with dizziness/hypotension
+- Monitoring frequency: Every 2 hours minimum
+
+Profile 2: Diabetic Patients
+- Blood glucose target: 140-180 mg/dL (inpatient)
+- Higher infection risk — monitor temperature closely
+- Silent MI possible — monitor ECG changes
+- Neuropathy may blunt pain responses
+- Renal function monitoring: creatinine, urine output
+- Hypoglycemia risk especially with insulin therapy
+
+Profile 3: Cardiac Patients (CHF, CAD, Post-MI)
+- HR and BP targets vary by condition
+- Weight monitoring — 2kg gain in 24h signals fluid overload
+- SpO2 target > 94% unless COPD comorbidity
+- Avoid fluid overload — limit IV fluids
+- Beta-blocker patients: resting HR 50-70 BPM is acceptable
+
+Profile 4: Respiratory Patients (COPD, Asthma, Pneumonia)
+- SpO2 target 88-92% for COPD (hypoxic drive risk)
+- Avoid high-flow O2 in COPD — can suppress respiratory drive
+- Monitor for CO2 retention signs: drowsiness, confusion
+- RR trend more important than single reading
+
+Profile 5: Post-Surgical Patients
+- First 24h: monitor every 30 min
+- Pain can elevate HR and BP — treat pain before escalating
+- Temperature spike at 72h post-op suggests wound infection
+- SpO2 < 94% with decreased breath sounds — suspect pneumothorax
+
+RISK SCORING — EARLY WARNING SCORE (EWS)
+Score 0 (each parameter):
+- HR: 51-100, RR: 12-20, Temp: 36.1-37.9°C, BP Sys: 111-149, SpO2: ≥96%
+
+Score 1:
+- HR: 41-50 or 101-110, RR: 21-24, Temp: 38-38.9°C, BP Sys: 101-110, SpO2: 94-95%
+
+Score 2:
+- HR: < 40 or 111-130, RR: > 24, Temp: ≥39°C or <36°C, BP Sys: 91-100, SpO2: 92-93%
+
+Score 3:
+- HR: > 130, BP Sys: ≤90, SpO2: ≤91%
+
+Total EWS ≥ 5: Escalate to senior clinician immediately
+Total EWS ≥ 7: Consider ICU transfer

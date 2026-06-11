@@ -1,0 +1,57 @@
+services:
+
+  redis:
+    image: redis:alpine
+    container_name: mediagent-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mediagent-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./knowledge_base:/app/knowledge_base
+    environment:
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - LLM_MODEL=llama3.2:1b
+      - EMBED_MODEL=nomic-embed-text
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - CHROMA_DB_PATH=/app/data/chroma_db
+      - KNOWLEDGE_BASE_DIR=/app/knowledge_base
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mediagent-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  redis_data:

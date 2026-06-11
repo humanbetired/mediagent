@@ -1,0 +1,60 @@
+EMERGENCY RESPONSE PROTOCOLS — ICU STANDARDS
+
+PROTOCOL 1: CARDIAC EMERGENCY
+Trigger: HR < 40 BPM or HR > 150 BPM with symptoms
+Actions:
+1. Call Code Blue immediately
+2. Attach cardiac monitor and 12-lead ECG
+3. Establish IV access
+4. Prepare defibrillator / pacemaker standby
+5. Notify cardiologist on call
+6. Document time of onset and all interventions
+
+PROTOCOL 2: RESPIRATORY DISTRESS
+Trigger: SpO2 < 88% or RR > 30 breaths/min
+Actions:
+1. Elevate head of bed 30-45 degrees
+2. Apply supplemental O2 — start at 2L/min via nasal cannula
+3. Escalate to non-rebreather mask if no improvement in 5 min
+4. Prepare for intubation if SpO2 < 85% persists
+5. Order ABG (Arterial Blood Gas) immediately
+6. Notify pulmonologist/intensivist
+
+PROTOCOL 3: HYPERTENSIVE CRISIS
+Trigger: Systolic BP > 180 mmHg and/or Diastolic > 120 mmHg
+Actions:
+1. Do NOT lower BP too rapidly — target 25% reduction in first hour
+2. Administer IV antihypertensive (Labetalol or Nicardipine per order)
+3. Continuous BP monitoring every 5 minutes
+4. Assess for end-organ damage: neuro, renal, cardiac
+5. Notify attending physician immediately
+6. 12-lead ECG and troponin panel
+
+PROTOCOL 4: HYPOGLYCEMIC EMERGENCY
+Trigger: Blood glucose < 54 mg/dL or symptomatic hypoglycemia
+Actions:
+1. If conscious: administer 15-20g fast-acting carbohydrates orally
+2. If unconscious: IV Dextrose 50% — 25-50 mL bolus
+3. Recheck glucose in 15 minutes
+4. If < 70 mg/dL, repeat treatment
+5. Identify and address root cause (insulin overdose, missed meal)
+6. Notify endocrinologist if recurrent
+
+PROTOCOL 5: SEPSIS ALERT
+Trigger: Temp > 38.3°C or < 36°C + HR > 90 + RR > 20 + suspected infection
+Actions:
+1. Activate Sepsis Bundle (Hour-1 Bundle)
+2. Draw blood cultures x2 before antibiotics
+3. Administer broad-spectrum antibiotics within 1 hour
+4. IV fluid resuscitation: 30 mL/kg crystalloid
+5. Monitor urine output (target > 0.5 mL/kg/hr)
+6. Lactate level — if > 2 mmol/L, ICU admission
+
+PROTOCOL 6: HYPOTHERMIA MANAGEMENT
+Trigger: Core temperature < 35°C
+Actions:
+1. Remove wet clothing, passive rewarming with blankets
+2. Warm IV fluids (42°C) for moderate/severe cases
+3. Cardiac monitoring — hypothermia causes arrhythmias
+4. If temp < 30°C, active internal rewarming (warmed humidified O2)
+5. Do NOT declare death until patient is warm and still unresponsive

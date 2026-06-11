@@ -1,0 +1,46 @@
+CLINICAL GUIDE: VITAL SIGNS MONITORING
+
+HEART RATE (HR)
+- Normal Adult: 60-100 BPM
+- Bradycardia: < 60 BPM — may indicate heart block, hypothyroidism, or athlete adaptation
+- Tachycardia: > 100 BPM — may indicate fever, anemia, dehydration, anxiety, or cardiac arrhythmia
+- Critical Low: < 40 BPM — immediate intervention required
+- Critical High: > 150 BPM — immediate intervention required
+
+BLOOD PRESSURE (BP)
+- Normal: Systolic 90-120 mmHg / Diastolic 60-80 mmHg
+- Elevated: Systolic 120-129 mmHg
+- Hypertension Stage 1: Systolic 130-139 or Diastolic 80-89 mmHg
+- Hypertension Stage 2: Systolic ≥ 140 or Diastolic ≥ 90 mmHg
+- Hypertensive Crisis: Systolic > 180 and/or Diastolic > 120 — emergency
+- Hypotension: Systolic < 90 mmHg — may indicate shock, dehydration, or sepsis
+
+OXYGEN SATURATION (SpO2)
+- Normal: 95-100%
+- Mild Hypoxemia: 91-94% — supplemental oxygen may be needed
+- Moderate Hypoxemia: 86-90% — oxygen therapy required
+- Severe Hypoxemia: < 85% — immediate intervention, risk of organ damage
+- Note: Values may be lower in patients with chronic lung disease (COPD baseline ~88-92%)
+
+BODY TEMPERATURE
+- Normal: 36.1-37.2°C (97.0-99.0°F)
+- Low-grade Fever: 37.3-38.0°C
+- Fever: 38.1-39.0°C — investigate infection source
+- High Fever: 39.1-40.0°C — antipyretic treatment indicated
+- Hyperpyrexia: > 40.0°C — medical emergency
+- Hypothermia: < 35.0°C — medical emergency, risk of cardiac arrest
+
+RESPIRATORY RATE (RR)
+- Normal Adult: 12-20 breaths/min
+- Tachypnea: > 20 breaths/min — may indicate pneumonia, anxiety, metabolic acidosis
+- Bradypnea: < 12 breaths/min — may indicate drug overdose or neurological issue
+- Critical: > 30 breaths/min — respiratory failure risk
+
+BLOOD GLUCOSE
+- Normal Fasting: 70-100 mg/dL
+- Pre-diabetes: 100-125 mg/dL
+- Diabetes: ≥ 126 mg/dL (fasting)
+- Hypoglycemia: < 70 mg/dL — administer glucose immediately
+- Severe Hypoglycemia: < 54 mg/dL — emergency
+- Hyperglycemia: > 180 mg/dL (post-meal) — insulin may be required
+- Diabetic Crisis: > 300 mg/dL — immediate medical attention

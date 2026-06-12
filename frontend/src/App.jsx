@@ -85,12 +85,13 @@ export default function App() {
   }, [])
 
   const statusBg = {
-    CRITICAL : 'rgba(239,68,68,0.12)',
-    WARNING  : 'rgba(245,158,11,0.12)',
-    NORMAL   : 'rgba(16,185,129,0.12)',
+    CRITICAL : 'rgba(220,38,38,0.08)',
+    WARNING  : 'rgba(217,119,6,0.08)',
+    NORMAL   : 'rgba(22,163,74,0.08)',
   }
-  const statusColor = { CRITICAL: '#EF4444', WARNING: '#F59E0B', NORMAL: '#10B981' }
 
+  const statusColor = { CRITICAL: '#DC2626', WARNING: '#D97706', NORMAL: '#16A34A' }
+  
   return (
     <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', overflow: 'hidden' }}>
 
@@ -98,6 +99,7 @@ export default function App() {
       <header style={{
         background   : 'var(--navy-mid)',
         borderBottom : '1px solid var(--border)',
+        boxShadow    : '0 1px 2px rgba(0,0,0,0.03)',
         padding      : '0 24px',
         height       : '52px',
         display      : 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -112,26 +114,9 @@ export default function App() {
           }}>
             MEDIAGENT
           </span>
-          <span style={{
-            fontSize: '10px', color: 'var(--steel)',
-            background: 'rgba(203,213,225,0.06)',
-            padding: '2px 8px', borderRadius: '3px',
-            border: '1px solid var(--border)',
-            fontFamily: 'IBM Plex Mono, monospace',
-          }}>
-            ICU MONITORING SYSTEM
-          </span>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-          {alerts.length > 0 && (
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <Bell size={14} color="#F59E0B" />
-              <span style={{ fontSize: '11px', color: '#F59E0B', fontFamily: 'IBM Plex Mono, monospace' }}>
-                {alerts.length} ALERT{alerts.length > 1 ? 'S' : ''}
-              </span>
-            </div>
-          )}
           <span style={{
             fontFamily: 'IBM Plex Mono, monospace',
             fontSize: '12px', color: 'var(--steel)',
@@ -149,6 +134,7 @@ export default function App() {
           width: '240px', flexShrink: 0,
           background: 'var(--navy-mid)',
           borderRight: '1px solid var(--border)',
+          boxShadow    : '0 1px 2px rgba(0,0,0,0.03)',
           display: 'flex', flexDirection: 'column',
           overflow: 'hidden',
         }}>
@@ -224,7 +210,7 @@ export default function App() {
               flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
               gap: '12px',
             }}>
-              <Activity size={40} color="var(--border)" />
+              <Activity size={40} color="#CBD5D1" />
               <p style={{
                 fontFamily: 'IBM Plex Mono, monospace',
                 fontSize: '13px', color: 'var(--steel)', letterSpacing: '0.05em'
@@ -275,8 +261,8 @@ export default function App() {
                   <button
                     onClick={() => runAnalysis(selected)}
                     style={{
-                      background: 'rgba(56,189,248,0.08)',
-                      border: '1px solid rgba(56,189,248,0.3)',
+                      background: 'rgba(14,159,110,0.08)',
+                      border: '1px solid rgba(14,159,110,0.3)',
                       borderRadius: '5px', padding: '8px 14px',
                       color: 'var(--accent)', cursor: 'pointer',
                       display: 'flex', alignItems: 'center', gap: '6px',

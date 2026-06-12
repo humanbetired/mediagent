@@ -15,6 +15,7 @@ The entire system runs locally, no external API calls, no cloud dependency, full
 A full diagram with the Docker Compose deployment topology:
 
 ![MediAgent Architecture](./archi/Archi_MediAgent.png).
+![Look like](./archi/look.png).
 
 ---
 

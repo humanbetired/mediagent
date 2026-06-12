@@ -25,6 +25,7 @@ export default function VitalSign({ parameter, value, unit, status }) {
       border       : `1px solid ${status === 'CRITICAL' ? 'rgba(239,68,68,0.3)' : 'var(--border)'}`,
       borderRadius : '6px',
       padding      : '14px',
+      boxShadow    : '0 1px 2px rgba(0,0,0,0.04)',
       position     : 'relative',
       overflow     : 'hidden',
     }}>

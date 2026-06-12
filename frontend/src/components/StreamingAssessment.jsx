@@ -108,13 +108,14 @@ export default function StreamingAssessment({ tokens, isStreaming, ragGuidance }
       border: '1px solid var(--border)',
       borderRadius: '6px',
       overflow: 'hidden',
+      boxShadow: '0 1px 3px rgba(0,0,0,0.04)',
     }}>
       {/* Header */}
       <div style={{
         padding: '10px 16px',
         borderBottom: '1px solid var(--border)',
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        background: 'rgba(56,189,248,0.04)',
+        background: 'rgba(14,159,110,0.05)',
       }}>
         <span style={{
           fontSize: '10px', fontWeight: 700,
@@ -123,19 +124,6 @@ export default function StreamingAssessment({ tokens, isStreaming, ragGuidance }
         }}>
           RISK ASSESSMENT ANALYSIS
         </span>
-        {isStreaming && (
-          <span style={{
-            fontSize: '9px', color: 'var(--normal)',
-            fontFamily: 'IBM Plex Mono, monospace',
-            display: 'flex', alignItems: 'center', gap: '6px',
-          }}>
-            <span className="pulse" style={{
-              width: '6px', height: '6px', borderRadius: '50%',
-              background: 'var(--normal)', display: 'inline-block'
-            }} />
-            LIVE
-          </span>
-        )}
       </div>
 
       {/* Content */}
@@ -163,7 +151,7 @@ export default function StreamingAssessment({ tokens, isStreaming, ragGuidance }
       {ragGuidance && (
         <>
           <div style={{ borderTop: '1px solid var(--border)', padding: '10px 16px',
-            background: 'rgba(16,185,129,0.04)',
+            background: 'rgba(22,163,74,0.05)',
           }}>
             <span style={{
               fontSize: '10px', fontWeight: 700,

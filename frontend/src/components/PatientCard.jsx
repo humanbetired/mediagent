@@ -13,12 +13,13 @@ export default function PatientCard({ patient, isSelected, onClick, status }) {
     <button
       onClick={onClick}
       style={{
-        background   : isSelected ? 'rgba(56,189,248,0.08)' : 'var(--navy-card)',
+        background   : isSelected ? 'rgba(14,159,110,0.1)' : 'var(--navy-card)',
         borderColor  : isSelected ? 'var(--accent)' : 'var(--border)',
         borderWidth  : '1px',
         borderStyle  : 'solid',
         borderRadius : '6px',
         padding      : '14px 16px',
+        boxShadow    : '0 1px 2px rgba(0,0,0,0.04)',  
         width        : '100%',
         textAlign    : 'left',
         cursor       : 'pointer',
@@ -29,7 +30,7 @@ export default function PatientCard({ patient, isSelected, onClick, status }) {
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <div style={{
             width: '34px', height: '34px', borderRadius: '50%',
-            background: 'rgba(56,189,248,0.1)',
+            background: 'rgba(14,159,110,0.1)',
             display: 'flex', alignItems: 'center', justifyContent: 'center'
           }}>
             <User size={16} color="var(--accent)" />
@@ -66,7 +67,7 @@ export default function PatientCard({ patient, isSelected, onClick, status }) {
         {patient.conditions?.map(c => (
           <span key={c} style={{
             fontSize: '10px', color: 'var(--steel)',
-            background: 'rgba(203,213,225,0.06)',
+            background: '#F4F9F6',
             padding: '2px 7px', borderRadius: '3px',
             border: '1px solid var(--border)',
             textTransform: 'capitalize',
